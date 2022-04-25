@@ -266,7 +266,49 @@ background-color: var(--hover-hero-button-color);
     z-index: 1;
     background-color: var(--backdrop-color);
 }
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
 
+.modal {
+    position: absolute;
+    display: inline-flex;
+    width: 528px;
+    height: 581px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cross-icon {
+    display: flex;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    right: 8px;
+    top: 8px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+}
+.modal svg {
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin: 0;
+    fill: #000;
+}
 /* products section */
 
 .primary-title {
