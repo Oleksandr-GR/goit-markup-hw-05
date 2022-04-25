@@ -257,6 +257,8 @@ background-color: var(--hover-hero-button-color);
     margin-right: 30px;
 }
 
+/* modal window */
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -273,7 +275,6 @@ background-color: var(--hover-hero-button-color);
 
 .modal {
     position: absolute;
-    display: inline-flex;
     width: 528px;
     height: 581px;
     background-color: #FFFFFF;
